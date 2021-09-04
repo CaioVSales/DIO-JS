@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aulas</title>
+</head>
+<body onload="load()")>
+    <script type="text/javascript" src="funcao.js"></script>
+
+    <button type="button" onClick="botao()">Clique aqui!</button>
+    <h3 id="agradecimento" onClick="redirecionar()"></h3>
+    <p id="mousemove" onmousemove="troca(this)" onmouseout="voltar(this)">Passe o mouse aqui!</p>
+    <select onchange="funcaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+</body>
+</html>
